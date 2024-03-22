@@ -14,6 +14,7 @@ variable "subnet" {
 
 variable "create_route_table" {
   default = true
+  type = bool
 }
 
 
